@@ -13,6 +13,10 @@
 		7ED5C0EA25E4F5C000700F56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED5C0E925E4F5C000700F56 /* Preview Assets.xcassets */; };
 		7ED5C0EC25E4F5C000700F56 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C0EB25E4F5C000700F56 /* Persistence.swift */; };
 		7ED5C0EF25E4F5C000700F56 /* FishingDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C0ED25E4F5C000700F56 /* FishingDiary.xcdatamodeld */; };
+		7ED5C0FB25E503C300700F56 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C0FA25E503C300700F56 /* HeaderView.swift */; };
+		7ED5C10425E526EF00700F56 /* FishingSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C10325E526EF00700F56 /* FishingSpot.swift */; };
+		7ED5C10925E534FE00700F56 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C10825E534FE00700F56 /* Home.swift */; };
+		7ED5C10D25E5370700700F56 /* Streaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C10C25E5370700700F56 /* Streaming.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		7ED5C0EB25E4F5C000700F56 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		7ED5C0EE25E4F5C000700F56 /* FishingDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FishingDiary.xcdatamodel; sourceTree = "<group>"; };
 		7ED5C0F025E4F5C000700F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ED5C0FA25E503C300700F56 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		7ED5C10325E526EF00700F56 /* FishingSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingSpot.swift; sourceTree = "<group>"; };
+		7ED5C10825E534FE00700F56 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		7ED5C10C25E5370700700F56 /* Streaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Streaming.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		7ED5C0E125E4F5C000700F56 /* FishingDiary */ = {
 			isa = PBXGroup;
 			children = (
+				7ED5C0F725E501F600700F56 /* View */,
 				7ED5C0E225E4F5C000700F56 /* FishingDiaryApp.swift */,
 				7ED5C0E425E4F5C000700F56 /* ContentView.swift */,
 				7ED5C0E625E4F5C000700F56 /* Assets.xcassets */,
@@ -73,6 +82,41 @@
 				7ED5C0E925E4F5C000700F56 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7ED5C0F725E501F600700F56 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5C10B25E536E100700F56 /* Streaming */,
+				7ED5C10225E526C100700F56 /* FishingSpot */,
+				7ED5C0F825E5038C00700F56 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7ED5C0F825E5038C00700F56 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5C0FA25E503C300700F56 /* HeaderView.swift */,
+				7ED5C10825E534FE00700F56 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7ED5C10225E526C100700F56 /* FishingSpot */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5C10325E526EF00700F56 /* FishingSpot.swift */,
+			);
+			path = FishingSpot;
+			sourceTree = "<group>";
+		};
+		7ED5C10B25E536E100700F56 /* Streaming */ = {
+			isa = PBXGroup;
+			children = (
+				7ED5C10C25E5370700700F56 /* Streaming.swift */,
+			);
+			path = Streaming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ED5C0FB25E503C300700F56 /* HeaderView.swift in Sources */,
 				7ED5C0EC25E4F5C000700F56 /* Persistence.swift in Sources */,
 				7ED5C0E525E4F5C000700F56 /* ContentView.swift in Sources */,
 				7ED5C0EF25E4F5C000700F56 /* FishingDiary.xcdatamodeld in Sources */,
 				7ED5C0E325E4F5C000700F56 /* FishingDiaryApp.swift in Sources */,
+				7ED5C10925E534FE00700F56 /* Home.swift in Sources */,
+				7ED5C10D25E5370700700F56 /* Streaming.swift in Sources */,
+				7ED5C10425E526EF00700F56 /* FishingSpot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
