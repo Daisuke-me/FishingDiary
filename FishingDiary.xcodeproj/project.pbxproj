@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E4A8B5425EB8B45006B86B9 /* SpotRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A8B5325EB8B45006B86B9 /* SpotRegister.swift */; };
+		7E4A8B5725EB93A7006B86B9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4A8B5625EB93A7006B86B9 /* MapView.swift */; };
+		7E4F6DAD25F509A30028277D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4F6DAC25F509A30028277D /* MapViewModel.swift */; };
 		7ED5C0E325E4F5C000700F56 /* FishingDiaryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C0E225E4F5C000700F56 /* FishingDiaryApp.swift */; };
 		7ED5C0E525E4F5C000700F56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED5C0E425E4F5C000700F56 /* ContentView.swift */; };
 		7ED5C0E725E4F5C000700F56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ED5C0E625E4F5C000700F56 /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E4A8B5325EB8B45006B86B9 /* SpotRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotRegister.swift; sourceTree = "<group>"; };
+		7E4A8B5625EB93A7006B86B9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7E4F6DAC25F509A30028277D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		7ED5C0DF25E4F5C000700F56 /* FishingDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishingDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ED5C0E225E4F5C000700F56 /* FishingDiaryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishingDiaryApp.swift; sourceTree = "<group>"; };
 		7ED5C0E425E4F5C000700F56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -107,6 +113,9 @@
 			isa = PBXGroup;
 			children = (
 				7ED5C10325E526EF00700F56 /* FishingSpot.swift */,
+				7E4A8B5325EB8B45006B86B9 /* SpotRegister.swift */,
+				7E4A8B5625EB93A7006B86B9 /* MapView.swift */,
+				7E4F6DAC25F509A30028277D /* MapViewModel.swift */,
 			);
 			path = FishingSpot;
 			sourceTree = "<group>";
@@ -194,8 +203,11 @@
 				7ED5C0EF25E4F5C000700F56 /* FishingDiary.xcdatamodeld in Sources */,
 				7ED5C0E325E4F5C000700F56 /* FishingDiaryApp.swift in Sources */,
 				7ED5C10925E534FE00700F56 /* Home.swift in Sources */,
+				7E4F6DAD25F509A30028277D /* MapViewModel.swift in Sources */,
 				7ED5C10D25E5370700700F56 /* Streaming.swift in Sources */,
+				7E4A8B5725EB93A7006B86B9 /* MapView.swift in Sources */,
 				7ED5C10425E526EF00700F56 /* FishingSpot.swift in Sources */,
+				7E4A8B5425EB8B45006B86B9 /* SpotRegister.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
